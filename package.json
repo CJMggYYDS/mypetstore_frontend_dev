@@ -1,10 +1,12 @@
 {
   "name": "mypetstore_frontend_dev",
   "version": "1.0.0",
-  "description": "My prtstore web frontend",
-  "main": "index.js",
+  "description": "My petstore web frontend",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/CJMggYYDS/mypetstore_frontend_dev/issues"
   },
-  "homepage": "https://github.com/CJMggYYDS/mypetstore_frontend_dev#readme"
+  "homepage": "https://github.com/CJMggYYDS/mypetstore_frontend_dev#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.0"
+  }
 }
