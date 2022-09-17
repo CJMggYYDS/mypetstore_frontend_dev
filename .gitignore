@@ -1,0 +1,10 @@
+.vscode/*
+*.code-workspace
+
+.history/
+
+# node.js npm package
+/node_modules/
+
+# target file
+/dist/
