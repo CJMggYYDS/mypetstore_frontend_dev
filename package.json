@@ -1,0 +1,19 @@
+{
+  "name": "mypetstore_frontend_dev",
+  "version": "1.0.0",
+  "description": "My prtstore web frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CJMggYYDS/mypetstore_frontend_dev.git"
+  },
+  "author": "cjm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CJMggYYDS/mypetstore_frontend_dev/issues"
+  },
+  "homepage": "https://github.com/CJMggYYDS/mypetstore_frontend_dev#readme"
+}
